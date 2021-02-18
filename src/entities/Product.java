@@ -30,6 +30,9 @@ public class Product {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
+	public static String nameToUpperCase (Product p) {
+		return p.getName().toUpperCase();
+	}
 
 
 	@Override
