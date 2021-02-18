@@ -30,10 +30,14 @@ public class Product {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-	public static String nameToUpperCase (Product p) {
+
+	public static String nameToUpperCase(Product p) {
 		return p.getName().toUpperCase();
 	}
 
+	public  String nonNameToUpperCase() {
+		return name.toUpperCase();
+	}
 
 	@Override
 	public String toString() {
